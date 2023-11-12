@@ -10,21 +10,21 @@
     /* Pealkiri */
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
 
-    /* Neoon */
-    color: #e541ff;
-    text-shadow: 0 0 1rem #ff00ff;
+    /* Neon */
+    color: #d62fff;
+    text-shadow: 0 0 2rem #c400c4;
 
     /* Taustapilt saadud veebisaidilt: https://www.pexels.com/, autor: Piccinng, pealkiri: "Photo of Skyline at Night" */
     /* https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("taustapilt.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("taustapilt.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
     /* Elemendi suurus */
-    height: 20vh;
+    height: 25vh;
 }
 
 body {
