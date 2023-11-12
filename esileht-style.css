@@ -10,7 +10,7 @@
     /* Pealkiri */
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
-    font-size: 7vw;
+    font-size: 10vh;
 
     /* Neon */
     color: #d62fff;
@@ -29,34 +29,38 @@
 }
 
 .põhiosa {
-    padding: 0 2rem;
+    padding: 0 2.5%;
 }
 
 .vahekaart {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     border-radius: 1rem;
     background-color: #282828;
 }
 
 .Tekst, .Pilt {
-    width: 50%;
     box-sizing: border-box;
 }
 
 .Pilt{
-    max-height: 50vh;
+    aspect-ratio: 16/9;
+    display: flex;
+    align-items: stretch;
+    width: 45%;
 }
 
 .Tekst {
+    width: 55%;
     padding: 2rem;
-    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5vh;
 }
 
 img {
     object-fit: cover;
-    max-height: inherit;
     width: 100%;
 }
 
@@ -72,7 +76,6 @@ img {
 
 .Kirjeldus {
     background-color: #1c1c1c;
-    height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,6 +83,13 @@ img {
     position: relative;
 
     text-align: center;
-    font-size: 1.1rem;
-    padding: 0 2rem;
+    font-size: 3vh;
+    padding: 1.5% 6%;
+    font-family: "Oswald", sans-serif;
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 4vh;
 }
