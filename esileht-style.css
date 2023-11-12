@@ -26,7 +26,58 @@
     /* Elemendi suurus */
     height: 25vh;
 }
+.põhiosa {
+    padding: 0 2rem;
+}
 
-body {
-    font-family: "DM Sans", sans-serif;
+.vahekaart {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 1rem;
+    background-color: #282828;
+}
+
+.Tekst, .Pilt {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.Pilt{
+    max-height: 50vh;
+}
+
+.Tekst {
+    padding: 2rem;
+    min-height: 100%;
+}
+
+img {
+    object-fit: cover;
+    max-height: inherit;
+    width: 100%;
+}
+
+.VasakPilt {
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.ParemPilt {
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.Kirjeldus {
+    background-color: #1c1c1c;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0 2rem;
 }

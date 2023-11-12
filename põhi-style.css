@@ -1,3 +1,9 @@
 /*Fondid*/
 /*Fondid võetud saidilt: https://fonts.google.com/*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
+body {
+    background-color: #111111;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
