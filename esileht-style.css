@@ -1,0 +1,32 @@
+
+#põhipealkiri {
+    /* Konteiner */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    /* Pealkiri */
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+
+    /* Neoon */
+    color: #e541ff;
+    text-shadow: 0 0 1rem #ff00ff;
+
+    /* Taustapilt saadud veebisaidilt: https://www.pexels.com/, autor: Piccinng, pealkiri: "Photo of Skyline at Night" */
+    /* https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("taustapilt.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Elemendi suurus */
+    height: 20vh;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
