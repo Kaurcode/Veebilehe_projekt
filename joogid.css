@@ -1,0 +1,23 @@
+body{
+    color: #d62fff;
+    text-shadow: 0 0 2rem #c400c4;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+
+    /*taustapilt on saadud  saidilt https://www.thecosmopolitan.co.uk/the-cocktail-bar/ */
+    background-image: url("Joogimenüü_taust.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -3cm center;
+}
+
+h1{   
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
