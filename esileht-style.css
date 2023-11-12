@@ -10,7 +10,7 @@
     /* Pealkiri */
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
-    font-size: 4rem;
+    font-size: 7vw;
 
     /* Neon */
     color: #d62fff;
@@ -25,7 +25,9 @@
 
     /* Elemendi suurus */
     height: 25vh;
+    margin: 0;
 }
+
 .põhiosa {
     padding: 0 2rem;
 }
@@ -58,12 +60,12 @@ img {
     width: 100%;
 }
 
-.VasakPilt {
+.Vasak {
     border-bottom-left-radius: 1rem;
     border-top-left-radius: 1rem;
 }
 
-.ParemPilt {
+.Parem {
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;
 }
