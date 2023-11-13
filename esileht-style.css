@@ -10,7 +10,8 @@
     /* Pealkiri */
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
-    font-size: 4rem;
+    font-size: 10vh;
+    padding: 7vh 0;
 
     /* Neon */
     color: #d62fff;
@@ -24,9 +25,64 @@
     background-repeat: no-repeat;
 
     /* Elemendi suurus */
-    height: 25vh;
+    min-height: fit-content;
+    margin: 0;
 }
 
-body {
-    font-family: "DM Sans", sans-serif;
+.põhiosa {
+    padding: 0 4%;
+}
+
+.vahekaart {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    background-color: rgba(40, 40, 40, 0.7);
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.Tekst, .Pilt {
+    box-sizing: border-box;
+}
+
+.Pilt{
+    aspect-ratio: 16/9;
+    display: flex;
+    align-items: stretch;
+    width: 45%;
+}
+
+.Tekst {
+    width: 55%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5vh;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.Kirjeldus {
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    text-align: center;
+    font-size: 3vh;
+    padding: 1.5% 6%;
+    font-family: "Oswald", sans-serif;
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 4vh;
 }
