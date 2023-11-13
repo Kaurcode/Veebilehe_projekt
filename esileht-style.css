@@ -59,3 +59,13 @@ h2 {
     color: #fff7a1;
     text-shadow: 0 0 2rem #ffb600;
 }
+
+#JoogimenüüLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+#JoogimenüüLink:hover {
+    color: #ff2f6a;
+    text-shadow: 0 0 2rem #c40086;
+}
