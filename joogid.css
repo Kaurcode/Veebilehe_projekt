@@ -1,23 +1,17 @@
-body{
-    color: #d62fff;
-    text-shadow: 0 0 2rem #c400c4;
+h1{   
+    color: #ff2f6a;
+    text-shadow: 0 0 2rem #c40086;
+    font-size: 3rem;
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
-
-    /*taustapilt on saadud  saidilt https://www.thecosmopolitan.co.uk/the-cocktail-bar/ */
+    /*taustapilt on saadud  saidilt https://wallpapers.com/wallpapers/mojito-drink-lime-and-mint-uio74i0rowuwdowi.html Autor: daffyduck */
     background-image: url("Joogimenüü_taust.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    
 }
-
-h1{   
-    font-size: 3rem;
-}
-
+/*
 h2{
     font-size: 2rem;
 }
 p{
     font-size: 1rem;
-}
+}*/
