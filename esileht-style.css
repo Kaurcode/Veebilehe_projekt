@@ -49,3 +49,13 @@ h2 {
     margin-bottom: 0;
     font-size: 4vh;
 }
+
+#PäevamenüüLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+#PäevamenüüLink:hover {
+    color: #fff7a1;
+    text-shadow: 0 0 2rem #ffb600;
+}
