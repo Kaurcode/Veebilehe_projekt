@@ -29,14 +29,14 @@
 }
 
 .põhiosa {
-    padding: 0 2.5%;
+    padding: 0 4%;
 }
 
 .vahekaart {
     display: flex;
     flex-direction: row;
     border-radius: 1rem;
-    background-color: #282828;
+    background-color: rgba(40, 40, 40, 0.7);
 }
 
 .Tekst, .Pilt {
