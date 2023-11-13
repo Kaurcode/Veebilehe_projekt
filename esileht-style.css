@@ -1,32 +1,51 @@
 
-#põhipealkiri {
-    /* Konteiner */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-    /* Pealkiri */
-    font-family: "Bebas Neue", sans-serif;
-    text-align: center;
-    font-size: 4rem;
+#EsilehePealkiri{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("taustapilt.jpg");
 
     /* Neon */
     color: #d62fff;
     text-shadow: 0 0 2rem #c400c4;
-
-    /* Taustapilt saadud veebisaidilt: https://www.pexels.com/, autor: Piccinng, pealkiri: "Photo of Skyline at Night" */
-    /* https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("taustapilt.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    /* Elemendi suurus */
-    height: 25vh;
 }
 
-body {
-    font-family: "DM Sans", sans-serif;
+.põhiosa {
+    padding: 0 4%;
+}
+
+.vahekaart {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    background-color: rgba(40, 40, 40, 0.7);
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.Tekst, .Pilt {
+    box-sizing: border-box;
+}
+
+.Pilt{
+    aspect-ratio: 16/9;
+    display: flex;
+    align-items: stretch;
+    width: 45%;
+}
+
+.Tekst {
+    width: 55%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5vh;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 4vh;
 }
