@@ -43,3 +43,17 @@ body {
     background-repeat: repeat;
     background-color: #111111;
 }
+
+.Jalus {
+    background-color: rgba(40, 40, 40, 0.7);
+    padding: 1% 0 2% 2%;
+}
+
+.JalusOsad {
+    display: flex;
+}
+
+.JalusTulp {
+    flex-direction: column;
+    margin-right: 5%;
+}
