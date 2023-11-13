@@ -1,6 +1,47 @@
 /*Fondid*/
 /*Fondid võetud saidilt: https://fonts.google.com/*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,300&family=Oswald&display=swap');
+
+.Päis {
+    /* Konteiner */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    /* Pealkiri */
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-size: 10vh;
+    padding: 7vh 0;
+
+    /* Taustapilt saadud veebisaidilt: https://www.pexels.com/, autor: Piccinng, pealkiri: "Photo of Skyline at Night" */
+    /* https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Elemendi suurus */
+    min-height: fit-content;
+    margin: 0;
+}
+
+.Kirjeldus {
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    text-align: center;
+    font-size: 3vmin;
+    padding: 1.7vmin 6%;
+    font-family: "Oswald", sans-serif;
+    margin-top: 0;
+}
+
 body {
     color: white;
     font-family: "DM Sans", sans-serif;
