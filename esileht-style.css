@@ -11,6 +11,7 @@
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
     font-size: 10vh;
+    padding: 7vh 0;
 
     /* Neon */
     color: #d62fff;
@@ -24,7 +25,7 @@
     background-repeat: no-repeat;
 
     /* Elemendi suurus */
-    height: 25vh;
+    min-height: fit-content;
     margin: 0;
 }
 
@@ -37,6 +38,8 @@
     flex-direction: row;
     border-radius: 1rem;
     background-color: rgba(40, 40, 40, 0.7);
+    margin-bottom: 5%;
+    overflow: hidden;
 }
 
 .Tekst, .Pilt {
@@ -62,16 +65,6 @@
 img {
     object-fit: cover;
     width: 100%;
-}
-
-.Vasak {
-    border-bottom-left-radius: 1rem;
-    border-top-left-radius: 1rem;
-}
-
-.Parem {
-    border-bottom-right-radius: 1rem;
-    border-top-right-radius: 1rem;
 }
 
 .Kirjeldus {

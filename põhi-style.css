@@ -11,11 +11,12 @@ body {
     display: flex;
     padding: 0 4%;
     height: 5vh;
+    margin-bottom: 3%;
 }
 
 .LingiNupp {
     flex: 1;
-    background-color: #282828;
+    background-color: rgba(40, 40, 40, 0.8);
     margin: 0 1%;
     border-radius: 0.6rem;
 
