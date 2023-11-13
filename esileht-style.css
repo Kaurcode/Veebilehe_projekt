@@ -1,8 +1,4 @@
 
-#EsilehePealkiri{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("taustapilt.jpg");
-}
-
 .põhiosa {
     padding: 0 4%;
 }
@@ -19,6 +15,7 @@
     #EsilehePealkiri{
         color: #d62fff;
         text-shadow: 0 0 2rem #c400c4;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("taustapilt.jpg");
     }
     .vahekaart {
         background-color: rgba(31, 31, 31, 0.7);
@@ -29,9 +26,10 @@
     #EsilehePealkiri{
         color: #fff7a1;
         text-shadow: 0 0 2rem #ffb600;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("taustapilt_hele.jpg");
     }
     .vahekaart {
-        background-color: rgba(51, 51, 51, 0.7);
+        background-color: rgba(255, 255, 255, 0.7);
     }
 }
 

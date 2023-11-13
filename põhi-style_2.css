@@ -56,13 +56,11 @@ body {
 
 .LingiNupp {
     flex: 1;
-    background-color: rgba(40, 40, 40, 0.8);
     margin: 0 1%;
     border-radius: 0.6rem;
 
     font-family: "Lobster", sans-serif;
     text-decoration: none;
-    color: white;
     font-size: 2.5vmin;
     text-align: center;
 
@@ -89,7 +87,6 @@ body {
 }
 
 .Jalus {
-    background-color: rgba(40, 40, 40, 0.7);
     padding: 1% 0 2% 2%;
 }
 
@@ -111,15 +108,29 @@ body {
     .Kirjeldus {
         background-color: #1c1c1c;
     }
+    .LingiNupp{
+        color: white;
+        background-color: rgba(40, 40, 40, 0.8);
+    }
+    .Jalus {
+        background-color: rgba(40, 40, 40, 0.7);
+    }
 }
 
 .hele-teema {
     .Taust {
-        background-image: url("Tekstuur_2.png");
-        background-color: lightyellow;
+        background-image: url("Tekstuur_hele.png");
+        background-color: #ffe8ad;
         color: black;
     }
     .Kirjeldus {
-        background-color: #fff2d1;
+        background-color: #fffae3;
+    }
+    .LingiNupp{
+        color: black;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .Jalus {
+        background-color: rgba(255, 255, 255, 0.8);
     }
 }
