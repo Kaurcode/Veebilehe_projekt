@@ -1,0 +1,8 @@
+
+#PäevamenüüPealkiri {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("menüütoit.jpg");
+
+    /* Neon */
+    color: #fff7a1;
+    text-shadow: 0 0 2rem #ffb600;
+}
