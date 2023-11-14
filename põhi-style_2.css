@@ -115,6 +115,15 @@ body {
     .Jalus {
         background-color: rgba(40, 40, 40, 0.7);
     }
+    .TeemaNupp {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .TeemaNupp:hover {
+        border-top: 0.4vh solid #d62fff;
+        border-left: 0.4vh solid #d62fff;;
+        border-bottom: 0.4vh solid #d62fff;
+        box-shadow: 0 0 4vh #c400c4;
+    }
 }
 
 .hele-teema {
@@ -133,4 +142,49 @@ body {
     .Jalus {
         background-color: rgba(255, 255, 255, 0.8);
     }
+    .TeemaNupp {
+        background-color: rgba(31, 31, 31, 0.7);
+    }
+    .TeemaNupp:hover {
+        border-top: 0.4vh solid #fff7a1;
+        border-left: 0.4vh solid #fff7a1;
+        border-bottom: 0.4vh solid #fff7a1;
+        box-shadow: 0 0 4vh #ffb600;
+    }
+}
+
+.TeemaNupp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 25vh;
+    right: 0;
+    z-index: 1;
+
+    padding: 1vh;
+    border-radius: 20% 0 0 20%;
+
+    cursor: pointer;
+}
+
+.Peidetud_Nupp {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.KuuIkoon, .PäikseIkoon {
+    width: 3.5vh;
+    height: 3.5vh;
+    display: none;
+}
+
+.Peidetud_Nupp:checked ~ .PäikseIkoon {
+    display: inline-block;
+}
+
+.Peidetud_Nupp:not(:checked) ~ .KuuIkoon {
+    display: inline-block;
 }
