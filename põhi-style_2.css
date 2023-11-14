@@ -58,6 +58,7 @@ body {
     flex: 1;
     margin: 0 1%;
     border-radius: 0.6rem;
+    border: 0.4vh solid transparent;
 
     font-family: "Lobster", sans-serif;
     text-decoration: none;
@@ -164,6 +165,7 @@ body {
 
     padding: 1vh;
     border-radius: 20% 0 0 20%;
+    border: 0.4vh solid transparent;
 
     cursor: pointer;
 }
