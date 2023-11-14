@@ -75,9 +75,34 @@ body {
     box-shadow: 0 0 4vh #c400c4;
 }
 
+#EsileheNupp:hover {
+    border: 0.3vh solid #d62fff;
+    box-shadow: 0 0 4vh #c400c4;
+}
+
+#JoogimenüüNupp:hover {
+    border: 0.3vh solid #ff2f6a;
+    box-shadow: 0 0 4vh #c40086;
+}
+
 #PäevamenüüNupp:hover {
-    border: 0.3vh solid #fff7a1;
-    box-shadow: 0 0 4vh #ffb600;
+    border: 0.3vh solid #39f6ff;
+    box-shadow: 0 0 4vh #2460ff;
+}
+
+#TegevusedNupp:hover {
+    border: 0.3vh solid #55ff29;
+    box-shadow: 0 0 4vh #00bb34;
+}
+
+#BroneeriNupp:hover {
+    border: 0.3vh solid #ff5c00;
+    box-shadow: 0 0 4vh #a45000;
+}
+
+#InfoNupp:hover {
+    border: 0.3vh solid #ff17c1;
+    box-shadow: 0 0 4vh #ab0086;
 }
 
 .Taust {
