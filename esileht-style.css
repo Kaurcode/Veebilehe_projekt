@@ -63,12 +63,32 @@ h2 {
     font-size: 4vh;
 }
 
-#PäevamenüüLink {
+.LinkPealkiri {
     text-decoration: none;
     color: inherit;
+}
+
+#JoogimenüüLink:hover {
+    color: #ff2f6a;
+    text-shadow: 0 0 2rem #c40086;
 }
 
 #PäevamenüüLink:hover {
     color: #39f6ff;
     text-shadow: 0 0 2rem #2460ff;
+}
+
+#TegevusLink:hover {
+    color: #55ff29;
+    text-shadow: 0 0 2rem #00bb34;
+}
+
+#BroneeriLink:hover {
+    color: #ff5c00;
+    text-shadow: 0 0 2rem #a45000;
+}
+
+#InfoLink:hover {
+    color: #ff17c1;
+    text-shadow: 0 0 2rem #ab0086;
 }
