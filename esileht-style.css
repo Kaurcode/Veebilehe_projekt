@@ -69,3 +69,13 @@ h2 {
     color: #ff2f6a;
     text-shadow: 0 0 2rem #c40086;
 }
+
+#TegevusedLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+#TegevusedLink:hover {
+    color: #2ffff5;
+    text-shadow: 0 0 2rem #6bebff;
+}
