@@ -1,0 +1,96 @@
+
+#BroneeriPealkiri {
+    /*Pilt saadud saidilt https://www.pexels.com/, autor: Pixabay, pealkiri: "Empty Bar Filled With Lights"*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("baarilaud.jpg");
+
+    /* Neon */
+    color: #ffef2a;
+    text-shadow: 0 0 2rem #eca100;
+}
+
+#Vorm {
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 0 4% 4% 4%;
+}
+
+#VormiPealkiri {
+    /*Konteiner*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    /*Pealkiri*/
+    font-family: "Lobster", sans-serif;
+    font-size: 6vh;
+    padding: 4vh 0;
+    margin: 0;
+}
+
+#Kaart {
+    display: flex;
+    flex-direction: row;
+}
+
+.Tulp {
+    box-sizing: border-box;
+    flex: 1;
+    padding: 3vh 4vw;
+}
+
+.Väli {
+    margin: 2.5vh 0;
+}
+
+.Väli input, select {
+    margin-top: 1vh;
+    width: 80%;
+    height: 3vh;
+}
+
+.Väli textarea {
+    margin-top: 1vh;
+    width: 90%;
+    height: 20vh;
+}
+
+.Väli #ParkimisKoht {
+    width: auto;
+    height: auto;
+}
+
+#SaadaNupp {
+    margin: 0 4vw 5vh 4vw;
+    padding: 0.4vh 0.6vw;
+    border: 0.3vh solid transparent;
+    border-radius: 5px;
+}
+
+#Vorm input, #Vorm select, #Vorm textarea {
+    border: 0.3vh solid transparent;
+    border-radius: 5px;
+}
+
+.tume-teema {
+    #Vorm {
+        background-color: rgba(31, 31, 31, 0.7);
+    }
+    #VormiPealkiri {
+        background-color: rgba(2, 2, 2, 0.3);
+    }
+    #Vorm input:hover, #Vorm select:hover, #Vorm textarea:hover {
+        border: 0.3vh solid #39f6ff;
+        box-shadow: 0 0 4vh #2460ff;
+    }
+}
+
+.hele-teema {
+    #Vorm {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    #VormiPealkiri {
+        background-color: rgba(255, 245, 202, 0.8);
+    }
+}
