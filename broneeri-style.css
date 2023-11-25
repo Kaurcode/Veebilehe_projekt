@@ -29,17 +29,6 @@
     margin: 0;
 }
 
-#Kaart {
-    display: flex;
-    flex-direction: row;
-}
-
-.Tulp {
-    box-sizing: border-box;
-    flex: 1;
-    padding: 3vh 4vw;
-}
-
 .Väli {
     margin: 2.5vh 0;
 }
@@ -61,16 +50,20 @@
     height: auto;
 }
 
-#SaadaNupp {
-    margin: 0 4vw 5vh 4vw;
-    padding: 0.4vh 0.6vw;
+#Vorm input, #Vorm select, #Vorm textarea {
     border: 0.3vh solid transparent;
     border-radius: 5px;
 }
 
-#Vorm input, #Vorm select, #Vorm textarea {
-    border: 0.3vh solid transparent;
+#SaadaNupp {
+    margin: 0 4vw 5vh 4vw;
+    padding: 0.4vh 0.6vw;
     border-radius: 5px;
+    background-color: white;
+}
+
+#Vorm input[type="submit"] {
+    border: 0.3vh solid rgba(0, 0, 0, 0.2);
 }
 
 .tume-teema {
@@ -80,9 +73,9 @@
     #VormiPealkiri {
         background-color: rgba(2, 2, 2, 0.3);
     }
-    #Vorm input:hover, #Vorm select:hover, #Vorm textarea:hover {
-        border: 0.3vh solid #39f6ff;
-        box-shadow: 0 0 4vh #2460ff;
+    #Vorm input:hover, #Vorm select:hover, #Vorm textarea:hover, #Vorm input[type="checkbox"]:hover {
+        border: 0.3vh solid #d62fff;
+        box-shadow: 0 0 4vh #c400c4;
     }
 }
 
@@ -91,6 +84,10 @@
         background-color: rgba(255, 255, 255, 0.7);
     }
     #VormiPealkiri {
-        background-color: rgba(255, 245, 202, 0.8);
+        background-color: rgba(255, 230, 126, 0.5);
+    }
+    #Vorm input:hover, #Vorm select:hover, #Vorm textarea:hover, #ParkimisKoht:hover, #Vorm input[type="checkbox"]:hover {
+        border: 0.3vh solid #39f6ff;
+        box-shadow: 0 0 4vh #2460ff;
     }
 }
