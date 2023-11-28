@@ -6,3 +6,48 @@
     color: #fff7a1;
     text-shadow: 0 0 2rem #ffb600;
 }
+
+h2 {
+    font-family: Lobster, sans-serif;
+    font-size: 4vh;
+    margin: 2.5vh 0;
+}
+
+#Kaart {
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 0 4% 4% 4%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 1vh 0;
+}
+
+.Hind {
+    text-align: right;
+}
+
+.tume-teema tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.hele-teema tr {
+    border-bottom: 1px solid #000000;
+}
+
+.tume-teema {
+    #Kaart {
+        background-color: rgba(31, 31, 31, 0.7);
+    }
+}
+
+.hele-teema {
+    #Kaart {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+}

@@ -1,12 +1,4 @@
 
-#EsilehePealkiri{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("taustapilt.jpg");
-
-    /* Neon */
-    color: #d62fff;
-    text-shadow: 0 0 2rem #c400c4;
-}
-
 .põhiosa {
     padding: 0 4%;
 }
@@ -15,9 +7,30 @@
     display: flex;
     flex-direction: row;
     border-radius: 1rem;
-    background-color: rgba(40, 40, 40, 0.7);
     margin-bottom: 5%;
     overflow: hidden;
+}
+
+.tume-teema {
+    #EsilehePealkiri{
+        color: #d62fff;
+        text-shadow: 0 0 2rem #c400c4;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("taustapilt.jpg");
+    }
+    .vahekaart {
+        background-color: rgba(31, 31, 31, 0.7);
+    }
+}
+
+.hele-teema {
+    #EsilehePealkiri{
+        color: #fff7a1;
+        text-shadow: 0 0 2rem #ffb600;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("taustapilt_hele.jpg");
+    }
+    .vahekaart {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
 }
 
 .Tekst, .Pilt {
@@ -50,17 +63,7 @@ h2 {
     font-size: 4vh;
 }
 
-#PäevamenüüLink {
-    text-decoration: none;
-    color: inherit;
-}
-
-#PäevamenüüLink:hover {
-    color: #fff7a1;
-    text-shadow: 0 0 2rem #ffb600;
-}
-
-#JoogimenüüLink {
+.LinkPealkiri {
     text-decoration: none;
     color: inherit;
 }
@@ -70,12 +73,22 @@ h2 {
     text-shadow: 0 0 2rem #c40086;
 }
 
-#TegevusedLink {
-    text-decoration: none;
-    color: inherit;
+#PäevamenüüLink:hover {
+    color: #39f6ff;
+    text-shadow: 0 0 2rem #2460ff;
 }
 
 #TegevusedLink:hover {
     color: #2ffff5;
     text-shadow: 0 0 2rem #6bebff;
+}
+
+#BroneeriLink:hover {
+    color: #ff5c00;
+    text-shadow: 0 0 2rem #a45000;
+}
+
+#InfoLink:hover {
+    color: #ff17c1;
+    text-shadow: 0 0 2rem #ab0086;
 }
