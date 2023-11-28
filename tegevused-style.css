@@ -9,3 +9,67 @@ h1{
     /*alternatiivne taustapilt on saadud saidilt https://www.washingtonpost.com/lifestyle/home/board-game-nights-are-having-a-moment-heres-how-to-join-in/2018/01/09/0c32eb30-d3c0-11e7-95bf-df7c19270879_story.html; Autor: Mladen Zivkovic */
     /*background-image: url("Tegevused_taust1.jpg");*/
 }
+
+h2{
+    font-family: Lobster, sans-serif;
+    font-size: 4vh;
+    margin: 2.5vh 0;
+}
+
+.tume-teema tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.hele-teema tr {
+    border-bottom: 1px solid #000000;
+}
+
+.tume-teema {
+    #Kaart {
+        background-color: rgba(31, 31, 31, 0.7);
+    }
+    .vahekaart {
+        background-color: rgba(31, 31, 31, 0.7);
+    }
+}
+
+.hele-teema {
+    #Kaart {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    .vahekaart {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+}
+
+.põhiosa {
+    padding: 0 4%;
+}
+
+.vahekaart {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.Tekst, .Pilt {
+    box-sizing: border-box;
+}
+
+.Pilt{
+    aspect-ratio: 16/9;
+    display: flex;
+    align-items: stretch;
+    width: 45%;
+}
+
+.Tekst {
+    width: 55%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5vh;
+}

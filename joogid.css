@@ -8,10 +8,68 @@ h1{
     background-image: url("Joogimenüü_taust.jpg");
     
 }
-/*
+
 h2{
-    font-size: 2rem;
+    font-family: Lobster, sans-serif;
+    font-size: 4vh;
+    margin: 2.5vh 0;
 }
-p{
-    font-size: 1rem;
-}*/
+
+.tume-teema tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.hele-teema tr {
+    border-bottom: 1px solid #000000;
+}
+
+.tume-teema {
+    #Kaart {
+        background-color: rgba(31, 31, 31, 0.7);
+    }
+    .vahekaart {
+        background-color: rgba(31, 31, 31, 0.7);
+    }
+}
+
+.hele-teema {
+    #Kaart {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    .vahekaart {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+}
+
+.põhiosa {
+    padding: 0 4%;
+}
+
+.vahekaart {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    background-color: rgba(40, 40, 40, 0.3);
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.Tekst, .Pilt {
+    box-sizing: border-box;
+}
+
+.Pilt{
+    aspect-ratio: 16/9;
+    display: flex;
+    align-items: stretch;
+    width: 45%;
+}
+
+.Tekst {
+    width: 55%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5vh;
+}
