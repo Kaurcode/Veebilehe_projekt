@@ -1,0 +1,83 @@
+
+#InfoPealkiri {
+    /* Pilt saadud saidilt https://www.pexels.com/, autor: Alex Andrews, pealkiri: "Three Black Handset Toys" */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("kontakt.jpg");
+
+    /* Neon */
+    color: #ffc354;
+    text-shadow: 0 0 2rem #d78200;
+}
+
+#KontaktPealkiri {
+    /*Konteiner*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    /*Pealkiri*/
+    font-family: "Lobster", sans-serif;
+    font-size: 6vh;
+    padding: 4vh 0;
+    margin: 0;
+}
+
+.Logod {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 2.5% 0;
+    margin: 0 5%;
+}
+
+.Logo {
+    text-decoration: none;
+    margin: 1.5%;
+}
+
+#Tekst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.väärtus {
+    font-size: 4vh;
+    line-height: 7vh;
+}
+
+.tume-teema {
+    .Kaart {
+        background-color: rgba(31, 31, 31, 0.7);
+        border: 5px solid rgba(2, 2, 2, 0.3);
+    }
+    #KontaktPealkiri {
+        background-color: rgba(2, 2, 2, 0.3);
+    }
+    .Logod {
+        background-color: rgba(2, 2, 2, 0.3);
+    }
+    .Logo {
+        color: white;
+    }
+}
+
+.hele-teema {
+    .Kaart {
+        background-color: rgba(255, 255, 255, 0.7);
+        border: 5px solid rgba(255, 230, 126, 0.55);
+    }
+    #KontaktPealkiri {
+        background-color: rgba(255, 230, 126, 0.55);
+    }
+    .Logod {
+        background-color: rgba(255, 230, 126, 0.55);
+    }
+    .Logo {
+        color: black;
+    }
+}

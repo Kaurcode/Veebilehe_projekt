@@ -13,10 +13,9 @@ h2 {
     margin: 2.5vh 0;
 }
 
-#Kaart {
+.Kaart {
     border-radius: 1rem;
     overflow: hidden;
-    margin: 0 4% 4% 4%;
 }
 
 table {
@@ -41,13 +40,13 @@ td {
 }
 
 .tume-teema {
-    #Kaart {
+    .Kaart {
         background-color: rgba(31, 31, 31, 0.7);
     }
 }
 
 .hele-teema {
-    #Kaart {
+    .Kaart {
         background-color: rgba(255, 255, 255, 0.7);
     }
 }
