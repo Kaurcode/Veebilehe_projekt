@@ -73,3 +73,8 @@ h2{
     justify-content: center;
     font-size: 2.5vh;
 }
+
+img {
+    object-fit: cover;
+    width: 100%;
+}

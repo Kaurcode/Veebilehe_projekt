@@ -42,19 +42,21 @@ h2{
 }
 
 .põhiosa {
-    padding: 0 4%;
-}
-
-.vahekaart {
     display: flex;
     flex-direction: row;
     border-radius: 1rem;
-    background-color: rgba(40, 40, 40, 0.3);
-    margin-bottom: 5%;
     overflow: hidden;
+    margin: 0 4% 4% 4%;
 }
 
-.Tekst, .Pilt {
+.vahekaart {
+    background-color: rgba(40, 40, 40, 0.3);
+    box-sizing: border-box;
+    flex: 1;
+    padding: 3vh 4vw;
+}
+
+/*.Tekst, .Pilt {
     box-sizing: border-box;
 }
 
@@ -72,4 +74,17 @@ h2{
     flex-direction: column;
     justify-content: center;
     font-size: 2.5vh;
+}*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 1vh 0;
+}
+
+.hinnad {
+    text-align: right;
 }
