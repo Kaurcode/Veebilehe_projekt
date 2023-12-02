@@ -112,7 +112,13 @@ body {
     background-repeat: repeat;
 }
 
-#Kaart {
+.Kaart {
+    margin: 0 4% 4% 4%;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.Veerg {
     display: flex;
     flex-direction: row;
 }

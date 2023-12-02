@@ -29,6 +29,17 @@
     margin: 0;
 }
 
+#Kaart {
+    display: flex;
+    flex-direction: row;
+}
+
+.Tulp {
+    box-sizing: border-box;
+    flex: 1;
+    padding: 3vh 4vw;
+}
+
 .Väli {
     margin: 2.5vh 0;
 }
