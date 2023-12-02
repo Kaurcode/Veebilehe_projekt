@@ -15,7 +15,7 @@
     #EsilehePealkiri{
         color: #d62fff;
         text-shadow: 0 0 2rem #c400c4;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("taustapilt.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("../taustapilt.jpg");
     }
     .vahekaart {
         background-color: rgba(31, 31, 31, 0.7);
@@ -26,7 +26,7 @@
     #EsilehePealkiri{
         color: #fff7a1;
         text-shadow: 0 0 2rem #ffb600;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("taustapilt_hele.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("../taustapilt_hele.jpg");
     }
     .vahekaart {
         background-color: rgba(255, 255, 255, 0.7);
@@ -42,6 +42,7 @@
     display: flex;
     align-items: stretch;
     width: 45%;
+    overflow: hidden;
 }
 
 .Tekst {
@@ -56,6 +57,11 @@
 img {
     object-fit: cover;
     width: 100%;
+    transition: transform 1.25s ease;
+}
+
+.vahekaart:hover img {
+    transform: scale(1.15);
 }
 
 h2 {
