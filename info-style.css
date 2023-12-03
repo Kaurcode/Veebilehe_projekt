@@ -50,6 +50,12 @@
     line-height: 7vh;
 }
 
+@media only screen and (max-width: 600px) {
+    #Asukoht {
+        min-height: 40vh;
+    }
+}
+
 .tume-teema {
     .Kaart {
         background-color: rgba(31, 31, 31, 0.7);

@@ -46,14 +46,14 @@
 
 .Väli input, select {
     margin-top: 1vh;
-    width: 80%;
+    width: 90%;
     height: 3vh;
 }
 
 .Väli textarea {
     margin-top: 1vh;
     width: 90%;
-    height: 20vh;
+    height: 15vh;
 }
 
 .Väli #ParkimisKoht {
@@ -75,6 +75,12 @@
 
 #Vorm input[type="submit"] {
     border: 0.3vh solid rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 600px) {
+    #Kaart {
+        flex-direction: column;
+    }
 }
 
 .tume-teema {

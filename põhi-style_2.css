@@ -129,6 +129,15 @@ body {
     padding: 3vh 4vw;
 }
 
+@media only screen and (max-width: 600px) {
+    .Veerg {
+        flex-direction: column;
+    }
+    .Tulp {
+        width: 100%;
+    }
+}
+
 .Jalus {
     padding: 1% 0 2% 2%;
 }

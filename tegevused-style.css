@@ -74,6 +74,15 @@ h2{
     font-size: 2.5vh;
 }
 
+@media only screen and (max-width: 600px) {
+    .vahekaart {
+        flex-direction: column;
+    }
+    .Pilt, .Tekst {
+        width: 100%;
+    }
+}
+
 img {
     object-fit: cover;
     width: 100%;

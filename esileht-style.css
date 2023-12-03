@@ -60,6 +60,15 @@ img {
     transition: transform 1.25s ease;
 }
 
+@media only screen and (max-width: 600px) {
+    .vahekaart {
+        flex-direction: column;
+    }
+    .Pilt, .Tekst {
+        width: 100%;
+    }
+}
+
 .vahekaart:hover img {
     transform: scale(1.15);
 }
