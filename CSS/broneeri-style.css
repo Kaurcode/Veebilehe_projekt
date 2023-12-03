@@ -1,7 +1,7 @@
 
 #BroneeriPealkiri {
     /*Pilt saadud saidilt https://www.pexels.com/, autor: Pixabay, pealkiri: "Empty Bar Filled With Lights"*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("baarilaud.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../Pildid/Broneeri/baarilaud.jpg");
 
     /* Neon */
     color: #ffef2a;

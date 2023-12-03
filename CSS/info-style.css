@@ -1,7 +1,7 @@
 
 #InfoPealkiri {
     /* Pilt saadud saidilt https://www.pexels.com/, autor: Alex Andrews, pealkiri: "Three Black Handset Toys" */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("kontakt.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../Pildid/Info/kontakt.jpg");
 
     /* Neon */
     color: #ffc354;

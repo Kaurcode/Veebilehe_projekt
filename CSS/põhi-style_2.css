@@ -153,7 +153,7 @@ body {
 
 .tume-teema {
     .Taust {
-        background-image: url("Tekstuur_2.png");
+        background-image: url("../Pildid/Tekstuur_2.png");
         background-color: #111111;
         color: white;
     }
@@ -180,7 +180,7 @@ body {
 
 .hele-teema {
     .Taust {
-        background-image: url("Tekstuur_hele.png");
+        background-image: url("../Pildid/Tekstuur_hele.png");
         background-color: #ffe8ad;
         color: black;
     }

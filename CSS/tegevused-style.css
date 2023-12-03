@@ -5,7 +5,7 @@ h1{
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
     /*taustapilt on saadud saidilt https://wallpapercave.com/w/wp2646804; Autor: three072 */
-    background-image: url("Tegevused_taust0.jpg");
+    background-image: url("../Pildid/Tegevused/Tegevused_taust0.jpg");
     /*alternatiivne taustapilt on saadud saidilt https://www.washingtonpost.com/lifestyle/home/board-game-nights-are-having-a-moment-heres-how-to-join-in/2018/01/09/0c32eb30-d3c0-11e7-95bf-df7c19270879_story.html; Autor: Mladen Zivkovic */
     /*background-image: url("Tegevused_taust1.jpg");*/
 }
