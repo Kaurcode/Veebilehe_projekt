@@ -126,7 +126,7 @@ body {
 .Tulp {
     box-sizing: border-box;
     flex: 1;
-    padding: 3vh 4vw;
+    padding: 0 4vw;
 }
 
 @media only screen and (max-width: 600px) {
