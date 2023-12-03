@@ -59,7 +59,6 @@ h2{
 }
 
 .Pilt{
-    aspect-ratio: 16/9;
     display: flex;
     align-items: stretch;
     width: 45%;
@@ -72,4 +71,27 @@ h2{
     flex-direction: column;
     justify-content: center;
     font-size: 2.5vh;
+}
+
+#slaidid-konteiner {
+    position: relative;
+    aspect-ratio: 16/8;
+    overflow: hidden;
+    border: 0.5vh solid white;
+    box-shadow: 0 0 2vh white;
+}
+
+.slaid {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1.7s linear;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.pildislaid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
