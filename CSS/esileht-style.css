@@ -11,26 +11,24 @@
     overflow: hidden;
 }
 
-.tume-teema {
-    #EsilehePealkiri{
-        color: #d62fff;
-        text-shadow: 0 0 2rem #c400c4;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("../Pildid/Esileht/taustapilt.jpg");
-    }
-    .vahekaart {
-        background-color: rgba(31, 31, 31, 0.7);
-    }
+.tume-teema #EsilehePealkiri {
+    color: #d62fff;
+    text-shadow: 0 0 2rem #c400c4;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("../Pildid/Esileht/taustapilt.jpg");
 }
 
-.hele-teema {
-    #EsilehePealkiri{
-        color: #fff7a1;
-        text-shadow: 0 0 2rem #ffb600;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("../Pildid/Esileht/taustapilt_hele.jpg");
-    }
-    .vahekaart {
-        background-color: rgba(255, 255, 255, 0.7);
-    }
+.tume-teema .vahekaart {
+    background-color: rgba(31, 31, 31, 0.7);
+}
+
+.hele-teema #EsilehePealkiri {
+    color: #fff7a1;
+    text-shadow: 0 0 2rem #ffb600;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("../Pildid/Esileht/taustapilt_hele.jpg");
+}
+
+.hele-teema .vahekaart {
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .Tekst, .Pilt {

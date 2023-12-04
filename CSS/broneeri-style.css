@@ -83,28 +83,35 @@
     }
 }
 
-.tume-teema {
-    #Vorm {
-        background-color: rgba(31, 31, 31, 0.7);
-    }
-    #VormiPealkiri {
-        background-color: rgba(2, 2, 2, 0.3);
-    }
-    #Vorm input:hover, #Vorm select:hover, #Vorm textarea:hover, #Vorm input[type="checkbox"]:hover {
-        border: 0.3vh solid #d62fff;
-        box-shadow: 0 0 4vh #c400c4;
-    }
+.tume-teema #Vorm {
+    background-color: rgba(31, 31, 31, 0.7);
 }
 
-.hele-teema {
-    #Vorm {
-        background-color: rgba(255, 255, 255, 0.7);
-    }
-    #VormiPealkiri {
-        background-color: rgba(255, 230, 126, 0.5);
-    }
-    #Vorm input:hover, #Vorm select:hover, #Vorm textarea:hover, #ParkimisKoht:hover, #Vorm input[type="checkbox"]:hover {
-        border: 0.3vh solid #39f6ff;
-        box-shadow: 0 0 4vh #2460ff;
-    }
+.tume-teema #VormiPealkiri {
+    background-color: rgba(2, 2, 2, 0.3);
+}
+
+.tume-teema #Vorm input:hover,
+.tume-teema #Vorm select:hover,
+.tume-teema #Vorm textarea:hover,
+.tume-teema #Vorm input[type="checkbox"]:hover {
+    border: 0.3vh solid #d62fff;
+    box-shadow: 0 0 4vh #c400c4;
+}
+
+.hele-teema #Vorm {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.hele-teema #VormiPealkiri {
+    background-color: rgba(255, 230, 126, 0.5);
+}
+
+.hele-teema #Vorm input:hover,
+.hele-teema #Vorm select:hover,
+.hele-teema #Vorm textarea:hover,
+.hele-teema #ParkimisKoht:hover,
+.hele-teema #Vorm input[type="checkbox"]:hover {
+    border: 0.3vh solid #39f6ff;
+    box-shadow: 0 0 4vh #2460ff;
 }

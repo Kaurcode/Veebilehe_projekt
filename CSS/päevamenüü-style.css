@@ -60,20 +60,18 @@ td {
     border-bottom: 1px solid #000000;
 }
 
-.tume-teema {
-    .Kaart {
-        background-color: rgba(31, 31, 31, 0.7);
-    }
-    #MenüüKaartPealkiri {
-        background-color: rgba(2, 2, 2, 0.3);
-    }
+.tume-teema .Kaart {
+    background-color: rgba(31, 31, 31, 0.7);
 }
 
-.hele-teema {
-    .Kaart {
-        background-color: rgba(255, 255, 255, 0.7);
-    }
-    #MenüüKaartPealkiri {
-        background-color: rgba(255, 230, 126, 0.5);
-    }
+.tume-teema #MenüüKaartPealkiri {
+    background-color: rgba(2, 2, 2, 0.3);
+}
+
+.hele-teema .Kaart {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.hele-teema #MenüüKaartPealkiri {
+    background-color: rgba(255, 230, 126, 0.5);
 }

@@ -57,34 +57,36 @@
     }
 }
 
-.tume-teema {
-    .Kaart {
-        background-color: rgba(31, 31, 31, 0.7);
-        border: 5px solid rgba(2, 2, 2, 0.3);
-    }
-    #KontaktPealkiri {
-        background-color: rgba(2, 2, 2, 0.3);
-    }
-    .Logod {
-        background-color: rgba(2, 2, 2, 0.3);
-    }
-    .Logo {
-        color: white;
-    }
+.tume-teema .Kaart {
+    background-color: rgba(31, 31, 31, 0.7);
+    border: 5px solid rgba(2, 2, 2, 0.3);
 }
 
-.hele-teema {
-    .Kaart {
-        background-color: rgba(255, 255, 255, 0.7);
-        border: 5px solid rgba(255, 230, 126, 0.55);
-    }
-    #KontaktPealkiri {
-        background-color: rgba(255, 230, 126, 0.55);
-    }
-    .Logod {
-        background-color: rgba(255, 230, 126, 0.55);
-    }
-    .Logo {
-        color: black;
-    }
+.tume-teema #KontaktPealkiri {
+    background-color: rgba(2, 2, 2, 0.3);
+}
+
+.tume-teema .Logod {
+    background-color: rgba(2, 2, 2, 0.3);
+}
+
+.tume-teema .Logo {
+    color: white;
+}
+
+.hele-teema .Kaart {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 5px solid rgba(255, 230, 126, 0.55);
+}
+
+.hele-teema #KontaktPealkiri {
+    background-color: rgba(255, 230, 126, 0.55);
+}
+
+.hele-teema .Logod {
+    background-color: rgba(255, 230, 126, 0.55);
+}
+
+.hele-teema .Logo {
+    color: black;
 }
